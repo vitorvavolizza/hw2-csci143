@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-MAINTAINER Your Name "vrve2022@mymail.pomona.edu"
+MAINTAINER Vitor "vrve2022@mymail.pomona.edu"
 
 # We copy just the requirements.txt first to leverage Docker cache
 COPY ./requirements.txt /app/requirements.txt
